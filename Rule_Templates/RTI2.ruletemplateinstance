@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RuleTemplateInstance id="527c1f32-e991-43b6-b421-86c99ed6247a" implementsPath="/Rule_Templates/SpecialOffers" priority="5" description="">
     <filter id="1652269003120309278" matchType="Match Any">
-        <filter id="165226900312063225" operator="greater than or equal to">
+        <filter id="165226900312063225" operator="greater than">
             <link type="/Concepts/Applicant.concept" name="applicant"/>
             <link type="int" name="Age"/>
             <filterValue value="21"/>
@@ -14,7 +14,7 @@
                 <filterValue value="11"/>
             </filter>
             <filter id="1652269037021.3198" operator="set to">
-                <link type="double" name="InterestRate"/>
+                <link type="double" name="DefaultRate"/>
                 <filterValue value="12"/>
             </filter>
         </command>
